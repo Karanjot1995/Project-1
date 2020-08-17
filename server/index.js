@@ -38,9 +38,6 @@ app.listen(port, ()=>console.log('app listening on port: ', port))
 // app.use("/api", require("./routes"));
 
 
-// // app.get('/api', async function(req,res){
-// //   console.log("hi")
-// // })
 
 // console.log(__dirname, path.resolve('./'))
 
@@ -48,7 +45,5 @@ app.listen(port, ()=>console.log('app listening on port: ', port))
 // app.use(router)
 
 // // app.use(express.static('./build'))
-// app.listen(PORT, () => {
-//   console.log(`SSR running on port ${PORT}`)
-// })
+
 
